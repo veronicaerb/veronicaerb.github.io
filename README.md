@@ -1,11 +1,11 @@
 # veronicaerb.com #
 The humble code for [veronicaerb.com](http://veronicaerb.com).
 
-# Contributors #
-[Veronica Erb](https://github.com/veronicaerb)
-[Ian Young](https://github.com/iangreenleaf/)
+## Contributors ##
+* [Veronica Erb](https://github.com/veronicaerb)
+* [Ian Young](https://github.com/iangreenleaf/)
 
-# License #
+## License ##
 
 (The MIT License)
 

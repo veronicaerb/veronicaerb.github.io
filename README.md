@@ -6,6 +6,7 @@ The humble code for [veronicaerb.com](http://veronicaerb.com).
 * [Ian Young](https://github.com/iangreenleaf/)
 
 ## License ##
+The copyright of all content (text, images, video, and any other media) on veronicaerb.com is maintained by Veronica Erb or the corresponding copyright holders.
 
 (The MIT License)
 

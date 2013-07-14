@@ -318,8 +318,8 @@ label, input, textarea, button {
 
 input, textarea, button {
 	border-color: #ECF4F9 #E8E8E8 #E8E8E8 #ECF4F9;
-	border-style: double;
-	border-width: 3px;
+	border-style: solid;
+	border-width: 2px;
 }
 
 input:hover, textarea:hover, button:hover, input:hover#recaptcha_response_field {
@@ -330,7 +330,7 @@ input:hover, textarea:hover, button:hover, input:hover#recaptcha_response_field 
 label {
 	clear: left;
 	margin-bottom: 0.2em;
-	padding: .5em;
+	padding: .5em 0;
 	width: 105px;
 }
 
@@ -340,7 +340,7 @@ input {
 
 textarea {
 	height: 130px;
-	width: 300px; /*350*/
+	width: 280px;
 }
 
 #recaptcha_widget_div {
@@ -349,13 +349,16 @@ textarea {
 
 input[type="submit"], button {
 	clear: left;
-	width: 120px;
+	width: 200px;
+	padding: 1em;
 	color: #ffffff;
-	background-color: #3B789C;
+	background-color: rgba(36,78,145,1);
+	border: 1px solid #55ADE0;
 }
 
 input[type="submit"]:hover, button:hover {
 	background-color: #55ADE0;
+	border: 1px solid rgba(36,78,145,1);
 }
 
 
@@ -572,6 +575,12 @@ span.plainText {
 	}
 	.flickr_badge_image:nth-child(2n) {
 		clear: none;
+	}
+	label, input, textarea, button, #recaptcha_widget_div {
+		clear: left;
+	}
+	label {
+		padding: 0;
 	}
 }
 

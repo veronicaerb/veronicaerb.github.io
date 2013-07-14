@@ -68,7 +68,7 @@ EOL;
 	<div id="content">
 		<div id="content-wrapper" class="twoColumn">
 		
-		<h2>Contact</h2>
+		<h2>Contact Veronica</h2>
 
 <?php echo $error_message; ?>
 			<!-- testing PHP mail form from 1and1.com -->
@@ -106,7 +106,7 @@ EOL;
 					</noscript>
 				</div><!-- #reCAPTCHA -->
 			
-				<input type="submit" value="Submit"/>
+				<input type="submit" value="Send"/>
 			</fieldset>			
 			</form>
 

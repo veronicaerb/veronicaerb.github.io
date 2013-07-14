@@ -41,11 +41,11 @@ EOL;
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-<title>Contact > Veronica Erb | verbistheword</title>
-<link rel="stylesheet" type="text/css" href="main.css" />
-<link rel="icon" href="../image/favicon.ico" type="image/x-icon" />
-<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1" />
-<meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+	<title>Veronica Erb | verbistheword</title>
+	<link rel="stylesheet" href="main.css" />
+	<link rel="icon" href="../image/favicon.ico" type="image/x-icon" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
 <!-- Special thanks to Ian Greenleaf Young http://blog.iangreenleaf.com/ for writing the PHP to remember user input! -->
 </head>
 
@@ -114,7 +114,7 @@ EOL;
 		</div><!-- #content-wrapper -->
 		
 		<div class="infobox">
-			<img class="portrait" src="images/VErbPortrait_150px.jpg" alt="Welcome!" />
+			<img class="portrait" src="images/VErb_Headshot_sq.jpg" alt="Welcome!" />
 			<div class="twitter triangle-border top">
 				<p style="margin: .5em">Or, tweet <a href="http://twitter.com/verbistheword">@verbistheword on Twitter</a>.</p>
 			</div>

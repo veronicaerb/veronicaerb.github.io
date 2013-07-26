@@ -542,6 +542,10 @@ span.plainText {
 	#content-wrapper.twoColumn {
 		width: 460px;
 	}
+	.vimeo {
+		width:100%;
+		height: 380px;
+	}
 }
 
 @media screen and (max-width: 690px) {
@@ -578,6 +582,10 @@ span.plainText {
 	label {
 		padding: 0;
 	}
+	.vimeo {
+		width:100%;
+		height: 300px;
+	}
 }
 
 @media screen and (max-width: 545px) { /*485*/
@@ -596,5 +604,12 @@ span.plainText {
 	}
 	.flickr_badge_image:nth-child(3n+2) {
 		clear: left;
+	}
+}
+
+@media screen and (max-width: 470px) {
+	.vimeo {
+		width:100%;
+		height: 200px;
 	}
 }

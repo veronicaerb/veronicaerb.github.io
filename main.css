@@ -395,7 +395,7 @@ dt {
 	margin-top: 1em;
 }
 		
-dt.section {
+h2.section {
 	font-size: 1.1em;
 	font-weight: normal;
 	text-transform: uppercase;
@@ -404,16 +404,20 @@ dt.section {
 	margin-bottom: .5em;
 }
 		
-		
-dd {
+dd,
+.experience li {
 	line-height: 1.3em;
+	list-style-type: disc;
+	list-style-position: outside;
 }
 
 dl#experience dd {
+	display: list-item;
 	margin-left: 1em;
 }
 
 dl#experience dd.employer {
+	display: block;
 	margin-left: 0;
 }
 

@@ -150,16 +150,27 @@ p {
 }
 
 #branding {
+  h1,
+  a {
+  	color: #ffffff;
+  	border: 1px solid transparent;
+  }
   h1 {
   	float: left;
   	margin-top: 0;
   	margin-bottom: .1em;
   	padding-top: .5em; /* 18px / 36px = .5em*/
+  	
+  	a:hover {
+    	border: 1px solid transparent;
+    	border-bottom: 1px solid #ffffff;
+    	background-color: transparent;
+    }
   }
-  h1,
-  a {
-  	color: #ffffff;
-  	border: 1px solid transparent;
+  a:hover {
+  	text-decoration: none;
+  	border: 1px solid #ACBDDB;
+  	background-color: #3C6FB3;
   }
   ul {
   	float: left;
@@ -186,25 +197,12 @@ p {
     	border: 1px solid #1D5DA8;
     }
   }
-}
-
-#branding a:hover {
-	text-decoration: none;
-	border: 1px solid #ACBDDB;
-	background-color: #3C6FB3;
-}
-
-#branding h1 a:hover {
-	border: 1px solid transparent;
-	border-bottom: 1px solid #ffffff;
-	background-color: transparent;
-}
-
-#branding a.external-link {
-	background-image: url('images/arrow_full_upperright_16-mediumBlue.png');
-	background-position: right .2em;
-	background-repeat: no-repeat;
-	padding-right: 16px;
+  a.external-link {
+  	background-image: url('images/arrow_full_upperright_16-mediumBlue.png');
+  	background-position: right .2em;
+  	background-repeat: no-repeat;
+  	padding-right: 16px;
+  }
 }
 
 
@@ -213,12 +211,12 @@ p {
 #content {
 	margin-top: 2em;
 	margin-bottom: 2em;
-}
-
-#content ul {
-	margin: 1em;
-	line-height: 1.5em;
-	list-style: disc inside none;
+	
+	ul {
+  	margin: 1em;
+  	line-height: 1.5em;
+  	list-style: disc inside none;
+  }
 }
 
 
@@ -227,13 +225,12 @@ p {
 	float: right;
 	width: 210px;
 	margin: 0;
-}
 
-.infobox .portrait {
-	width: 160px;
-	margin: 10px 1.8em .5em;
+  .portrait {
+  	width: 160px;
+  	margin: 10px 1.8em .5em;
+  }
 }
-
 
 /* ---------- Flickr Badge ---------- */	
 
@@ -293,25 +290,36 @@ form {
 	width: 500px;
 }
 
-label, input, textarea, button, #recaptcha_widget_div {
+label, 
+input, 
+textarea, 
+button, 
+#recaptcha_widget_div {
 	margin-bottom: 1em;
 	float: left;
 }
 
-label, input, textarea, button {
+label, 
+input, 
+textarea, 
+button {
 	padding: .3em;
 }
 
-input, textarea, button {
+input, 
+textarea, 
+button {
 	border-color: #ECF4F9 #E8E8E8 #E8E8E8 #ECF4F9;
 	border-style: solid;
 	border-width: 2px;
 }
 
-input:hover, textarea:hover, button:hover, input:hover#recaptcha_response_field {
+input:hover, 
+textarea:hover, 
+button:hover, 
+input:hover#recaptcha_response_field {
 	background-color: #F7F7F4;
 }
-
 
 label {
 	clear: left;
@@ -333,7 +341,8 @@ textarea {
 	margin-left: -3px;
 }
 
-input[type="submit"], button {
+input[type="submit"], 
+button {
 	clear: left;
 	width: 200px;
 	padding: 1em;
@@ -342,7 +351,8 @@ input[type="submit"], button {
 	border: 1px solid #55ADE0;
 }
 
-input[type="submit"]:hover, button:hover {
+input[type="submit"]:hover, 
+button:hover {
 	background-color: #55ADE0;
 	border: 1px solid rgba(36,78,145,1);
 }
@@ -369,10 +379,10 @@ input[type="submit"]:hover, button:hover {
 .IE6only {
 	display: block;
 	border: 2px solid #990000;
-}
-
-.IE6only  p{
-	margin: 10px;
+	
+	p {
+  	margin: 10px;
+  }
 }
 
 #content-wrapper > .IE6only {

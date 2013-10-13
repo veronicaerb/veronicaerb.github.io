@@ -212,7 +212,8 @@ p {
 	margin-top: 2em;
 	margin-bottom: 2em;
 	
-	ul {
+	ul,
+	ol {
   	margin: 1em;
   	line-height: 1.5em;
   	list-style: disc inside none;
@@ -392,16 +393,13 @@ button:hover {
 
 
 /* ---------- Resume ---------- */
-
-dl#resume {
-}
 	
 dt {
 	font-weight: bold;
 	margin-top: 1em;
 }
 		
-h2.section {
+h3.section {
 	font-size: 1.1em;
 	font-weight: normal;
 	text-transform: uppercase;
@@ -417,18 +415,23 @@ dd,
 	list-style-position: outside;
 }
 
-dl#experience dd {
+.experience dd {
 	display: list-item;
 	margin-left: 1em;
 }
 
-dl#experience dd.employer {
+.experience dd.employer {
 	display: block;
 	margin-left: 0;
 }
 
 span.plainText {
 	font-weight: normal;
+}
+
+.footnote {
+  margin-top: 4em; 
+  color: #666;
 }
 
 /* ---------- Portfolio ----------*/

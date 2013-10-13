@@ -329,7 +329,11 @@ dd,
 
 .experience dd.employer {
   display: block;
-  margin-left: 0; }
+  margin-left: 0;
+  margin-bottom: .1em; }
+
+dl.experience li {
+  margin-left: 2em; }
 
 span.plainText {
   font-weight: normal; }

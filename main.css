@@ -506,8 +506,8 @@ span.plainText {
   .vimeo {
     width: 100%;
     height: 300px; } }
-@media screen and (max-width: 545px) {
-  /*485*/
+@media screen and (max-width: 581px) {
+  /*previously 545px, 485px*/
   #branding h1 {
     float: none; }
 

@@ -255,6 +255,18 @@ p {
   }
 }
 
+
+/* ---------- Sketchnotes ---------- */	
+
+.resources {
+	float: left;
+	width: 65%;
+}
+.flickr-feature {
+	float: right;
+	width: 30%;
+}
+
 /* ---------- Flickr Badge ---------- */	
 
 .flickrTitle {
@@ -283,6 +295,13 @@ p {
 	margin-right: 0;
 }
 
+.flickr-feature {
+	.flickr_badge_image {
+		margin-left: 0;
+		width: 100%;
+		clear: both;
+	}
+}
 .flickr_badge_image a {
 	display: block;
 }
@@ -645,6 +664,11 @@ span.plainText {
 	.flickr_badge_image:nth-child(3n+2) {
 		clear: left;
 	}
+	
+	.resources,
+	.flickr-feature {
+		width: 47%;
+	}
 }
 
 @media screen and (max-width: 470px) {
@@ -662,5 +686,10 @@ span.plainText {
 		li:first-child {
 			margin-right: 0
 		}
+	}
+	.resources,
+	.flickr-feature {
+		float: left;
+		width: 100%;
 	}
 }

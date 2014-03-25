@@ -197,6 +197,15 @@ p {
     width: 160px;
     margin: 10px 1.8em .5em; }
 
+/* ---------- Sketchnotes ---------- */
+.resources {
+  float: left;
+  width: 65%; }
+
+.flickr-feature {
+  float: right;
+  width: 30%; }
+
 /* ---------- Flickr Badge ---------- */
 .flickrTitle {
   margin-bottom: 5px; }
@@ -219,6 +228,11 @@ p {
 .flickr_badge_image:nth-child(2n-1) {
   clear: left;
   margin-right: 0; }
+
+.flickr-feature .flickr_badge_image {
+  margin-left: 0;
+  width: 100%;
+  clear: both; }
 
 .flickr_badge_image a {
   display: block; }
@@ -521,7 +535,11 @@ span.plainText {
     width: 100%; }
 
   .flickr_badge_image:nth-child(3n+2) {
-    clear: left; } }
+    clear: left; }
+
+  .resources,
+  .flickr-feature {
+    width: 47%; } }
 @media screen and (max-width: 470px) {
   .vimeo {
     width: 100%;
@@ -531,4 +549,9 @@ span.plainText {
     float: left;
     margin-left: 0; }
     #branding ul li:first-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+
+  .resources,
+  .flickr-feature {
+    float: left;
+    width: 100%; } }

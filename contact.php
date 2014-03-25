@@ -58,8 +58,8 @@ EOL;
 		<h1><a href="index.html">Veronica Erb</a></h1>
 		<ul class="group">
 			<li><a href="http://verbistheword.wordpress.com" class="external-link">Blog</a></li>
-			<li><a href="resume.html">Résumé</a></li>
-			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="speaking.html">Speaking</a></li>
+			<li><a href="sketchnotes.html">Sketchnotes</a></li>
 			<li class="current"><a href="contact.php">Contact</a></li>
 		</ul>
 	</div><!-- #branding -->

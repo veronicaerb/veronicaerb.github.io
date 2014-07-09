@@ -47,7 +47,6 @@ html > body {
 /* ---------- Headers ---------- */
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
-  margin-top: 1em;
   margin-bottom: .5em; }
 
 h1 {
@@ -181,12 +180,18 @@ p {
 /* ---------- Content ---------- */
 #content {
   margin-top: 2em;
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+  clear: left; }
   #content ul,
   #content ol {
     margin: 1em;
     line-height: 1.5em;
     list-style: disc inside none; }
+
+.col30 {
+  float: left;
+  width: 30%;
+  margin-right: 2%; }
 
 /* ---------- Infobox ---------- */
 .infobox {
@@ -207,6 +212,7 @@ p {
   width: 30%; }
 
 /* ---------- Photos ---------- */
+.photo,
 .photo.feature {
   width: 100%; }
 
@@ -228,7 +234,7 @@ p {
 
 .flickr_badge_image {
   float: left;
-  margin: 4% 4% 0 4%;
+  margin: 0 4% 10px 0;
   height: auto;
   width: 44%; }
 
@@ -236,7 +242,8 @@ p {
   clear: left;
   margin-right: 0; }
 
-.flickr-feature .flickr_badge_image {
+.flickr-feature .flickr_badge_image,
+.col30 .flickr_badge_image {
   margin-left: 0;
   width: 100%;
   clear: both; }
@@ -353,7 +360,6 @@ h3.section {
   font-weight: normal;
   text-transform: uppercase;
   color: #555555;
-  margin-top: 1.5em;
   margin-bottom: .5em; }
 
 dd,
@@ -482,12 +488,6 @@ span.plainText {
   #content {
     max-width: 51.6666667em;
     /* 620px / 12px = 51.6666667em */ }
-
-  #content-wrapper {
-    float: left; }
-
-  #content-wrapper.twoColumn {
-    width: 460px; }
 
   .vimeo {
     width: 100%;

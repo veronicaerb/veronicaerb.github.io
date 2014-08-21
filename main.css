@@ -84,6 +84,23 @@ a {
     text-decoration: underline;
     color: #0B61A4; }
 
+.broken-link a {
+  background-image: url("images/broken-link-blue.png");
+  background-position: right .2em;
+  background-repeat: no-repeat;
+  background-size: 14px 14px;
+  padding-right: 16px; }
+  .broken-link a:hover:after {
+    content: "Unfortunately, the site owner no longer maintains this site.";
+    display: block;
+    font-size: .5em;
+    background: none;
+    position: absolute;
+    text-decoration: none;
+    line-height: 1em; }
+  .broken-link a.no-hover:hover:after {
+    content: ""; }
+
 /* ----------- Main ---------- */
 body {
   position: relative;
@@ -106,23 +123,6 @@ body {
 p {
   line-height: 1.3em;
   margin-bottom: 1em; }
-
-.broken-link a {
-  background-image: url("images/broken-link-blue.png");
-  background-position: right .2em;
-  background-repeat: no-repeat;
-  background-size: 14px 14px;
-  padding-right: 16px; }
-  .broken-link a:hover:after {
-    content: "Unfortunately, the site owner no longer maintains this site.";
-    display: block;
-    font-size: .5em;
-    background: none;
-    position: absolute;
-    text-decoration: none;
-    line-height: 1em; }
-  .broken-link a.no-hover:hover:after {
-    content: ""; }
 
 /* ---------- Branding ---------- */
 .header {
@@ -333,21 +333,6 @@ button:hover {
   margin-bottom: 20px;
   border: 1px solid #990000;
   background-color: #f5f0eb; }
-
-/* ---------- Additional General ---------- */
-.important {
-  color: #990000;
-  font-weight: bold; }
-
-.IE6only {
-  display: block;
-  border: 2px solid #990000; }
-  .IE6only p {
-    margin: 10px; }
-
-#content-wrapper > .IE6only {
-  display: none;
-  border: none; }
 
 /* ---------- Resume ---------- */
 dt {

@@ -569,18 +569,6 @@ span.plainText {
 }
 
 
-/* ---------- IE patches ---------- */
-
-* html .group { /* IE6 self-clear floats */
-	height: 1%;
-}
-
-*:first-child+html .group { /* IE7 self-clear floats */
-	min-height: 1px;
-}
-
-
-
 /* ---------- Media Queries ---------- */
 @media screen and (min-width: 500px) {
 	.col30 {

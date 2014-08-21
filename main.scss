@@ -9,8 +9,8 @@ body {
 	margin: 0;
 	padding: 0;
 	top: 0;
-	background-color: #ffffff;	
-	color: #333333;
+	background-color: $white;
+	color: $darkgrey;
 }
 
 #wrapper {
@@ -39,15 +39,15 @@ p {
 
 .header {
 	width: 100%;
-	background: #0C70A7 url('images/verbisthewordBanner-01.png') repeat center -15px;
-	border-bottom: 1px solid #1D5DA8;
-	color: #ffffff;
+	background: $greendenim url('images/verbisthewordBanner-01.png') repeat center -15px;
+	border-bottom: 1px solid $brightdenim;
+	color: $white;
 }
 
 #branding {
   h1,
   a {
-  	color: #ffffff;
+  	color: $white;
   	border: 1px solid transparent;
   }
   h1 {
@@ -59,14 +59,14 @@ p {
   	
   	a:hover {
     	border: 1px solid transparent;
-    	border-bottom: 1px solid #ffffff;
+    	border-bottom: 1px solid $white;
     	background-color: transparent;
     }
   }
   a:hover {
   	text-decoration: none;
-  	border: 1px solid #ACBDDB;
-  	background-color: #3C6FB3;
+  	border: 1px solid $paledenim;
+  	background-color: $denim;
   }
   ul {
   	float: left;
@@ -89,8 +89,8 @@ p {
     	border-radius: .3em;
     }
     &.current a {
-    	background-color: #5A8BC8;
-    	border: 1px solid #1D5DA8;
+    	background-color: $mediumdenim;
+    	border: 1px solid $brightdenim;
     }
   }
   a.external-link {
@@ -164,8 +164,8 @@ p {
 
 .flickrBadge {
 	float: left;
-	background-color: #e0e5f2;
-	border: 1px solid #0C70A7;
+	background-color: $denimwhite;
+	border: 1px solid $greendenim;
 	-webkit-border-radius:6px;
 	-moz-border-radius:6px;
 	border-radius:6px;
@@ -241,7 +241,7 @@ button {
 input, 
 textarea, 
 button {
-	border-color: #ECF4F9 #E8E8E8 #E8E8E8 #ECF4F9;
+	border-color: $paledenim2 $lightestgray $lightestgray $paledenim2;
 	border-style: solid;
 	border-width: 2px;
 }
@@ -250,7 +250,7 @@ input:hover,
 textarea:hover, 
 button:hover, 
 input:hover#recaptcha_response_field {
-	background-color: #F7F7F4;
+	background-color: $greenwhite;
 }
 
 label {
@@ -278,15 +278,15 @@ button {
 	clear: left;
 	width: 200px;
 	padding: 1em;
-	color: #ffffff;
-	background-color: rgba(36,78,145,1);
-	border: 1px solid #55ADE0;
+	color: $white;
+	background-color: $deepblue;
+	border: 1px solid $aqua;
 }
 
 input[type="submit"]:hover, 
 button:hover {
-	background-color: #55ADE0;
-	border: 1px solid rgba(36,78,145,1);
+	background-color: $aqua;
+	border: 1px solid $deepblue;
 }
 
 
@@ -296,8 +296,8 @@ button:hover {
 	width: 290px;
 	padding: 10px;
 	margin-bottom: 20px;
-	border: 1px solid #990000;
-	background-color: #f5f0eb;
+	border: 1px solid $deepred;
+	background-color: $tanwhite;
 }
 
 
@@ -312,7 +312,7 @@ h3.section {
 	font-size: 1.1em;
 	font-weight: normal;
 	text-transform: uppercase;
-	color: #555555;
+	color: $mediumgrey;
 	margin-bottom: .5em;
 }
 		
@@ -344,7 +344,7 @@ span.plainText {
 
 .footnote {
   margin-top: 4em; 
-  color: #666;
+  color: $lightmediumgrey;
 }
 
 /* ---------- Portfolio ----------*/
@@ -353,9 +353,9 @@ span.plainText {
 	float: left;
 	width: 200px;
 	margin: .5em 1em 1em 0;
-	border: 1px solid #ccc;
-	border-top: 1px solid #efefef;
-	border-left: 1px solid #efefef;
+	border: 1px solid $lightgray;
+	border-top: 1px solid $lightergray;
+	border-left: 1px solid $lightergray;
 }
 
 
@@ -369,9 +369,9 @@ span.plainText {
 	position:relative;
 	padding:5px;
 	margin:-12px 0 5px;
-	border:1px solid #0C70A7; /* was 5px */
-	color:#333;
-	background: #e0e5f2;
+	border:1px solid $greendenim; /* was 5px */
+	color:$darkgrey;
+	background: $denimwhite;
 	/* css3 */
 	-webkit-border-radius:6px;
 	-moz-border-radius:6px;
@@ -387,7 +387,7 @@ span.plainText {
 	bottom:-20px; /* value = - border-top-width - border-bottom-width */
 	border-width:20px 20px 0;
 	border-style:solid;
-    border-color:#0C70A7 transparent;
+    border-color:$greendenim transparent;
     /* reduce the damage in FF3.0 */
     display:block; 
     width:0;
@@ -401,7 +401,7 @@ span.plainText {
 	left:47px; /* value = (:before left) + (:before border-left) - (:after border-left) */
 	border-width:13px 13px 0;
 	border-style:solid;
-	border-color:#e0e5f2 transparent;
+	border-color:$denimwhite transparent;
     /* reduce the damage in FF3.0 */
     display:block; 
     width:0;

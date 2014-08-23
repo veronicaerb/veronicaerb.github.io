@@ -20,3 +20,18 @@ $deepblue: rgba(36,78,145,1);
 $tanwhite: #f5f0eb;
 
 $deepred: #990000;
+
+
+$colors: $white, $lightestgray, $lightergray, $lightgray, $lightmediumgrey, $mediumgrey, $darkgrey, $denimwhite, $greenwhite, $paledenim, $paledenim2, $mediumdenim, $aqua, $greendenim, $denim, $brightdenim, $deepblue, $tanwhite, $deepred;
+
+.swatches {
+  @for $i from 1 through length($colors) {
+    li:nth-child(#{length($colors)}n+#{$i}) {
+      display: inline-block;
+      height: 50px;
+      width: 50px;
+      margin: 10px;
+      background: nth($colors, $i);
+    }
+  }
+}

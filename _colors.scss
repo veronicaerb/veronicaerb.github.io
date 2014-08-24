@@ -22,15 +22,16 @@ $tanwhite: #f5f0eb;
 $deepred: #990000;
 
 
-$colors: $white, $lightestgray, $lightergray, $lightgray, $lightmediumgrey, $mediumgrey, $darkgrey, $denimwhite, $greenwhite, $paledenim, $paledenim2, $mediumdenim, $aqua, $greendenim, $denim, $brightdenim, $deepblue, $tanwhite, $deepred;
+$colors: $white, $lightergray, $lightestgray, $lightgray, $lightmediumgrey, $mediumgrey, $darkgrey, $greenwhite, $paledenim2, $denimwhite, $paledenim, $mediumdenim, $denim, $brightdenim, $deepblue, $aqua, $greendenim, $tanwhite, $deepred;
 
 .swatches {
   @for $i from 1 through length($colors) {
     li:nth-child(#{length($colors)}n+#{$i}) {
       display: inline-block;
-      height: 50px;
+      height: 200px;
       width: 50px;
-      margin: 10px;
+      margin: 0;
+      padding: 0;
       background: nth($colors, $i);
     }
   }

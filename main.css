@@ -235,6 +235,74 @@ a {
   padding: 0;
   background: #990000; }
 
+/* ---------- BUBBLE WITH A BORDER AND TRIANGLE ---------- */
+/* adapted from http://nicolasgallagher.com/pure-css-speech-bubbles/demo/ */
+/* THE SPEECH BUBBLE
+---------------------- */
+.triangle-border {
+  position: relative;
+  padding: 5px;
+  margin: -12px 0 5px;
+  border: 1px solid #0c70a7;
+  /* was 5px */
+  color: #333333;
+  background: #e0e5f2;
+  /* css3 */
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px; }
+
+/* THE TRIANGLE
+----------------------- */
+.triangle-border:before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  /* value = - border-top-width - border-bottom-width */
+  border-width: 20px 20px 0;
+  border-style: solid;
+  border-color: #0c70a7 transparent;
+  /* reduce the damage in FF3.0 */
+  display: block;
+  width: 0; }
+
+/* creates the smaller  triangle */
+.triangle-border:after {
+  content: "";
+  position: absolute;
+  bottom: -13px;
+  /* value = - border-top-width - border-bottom-width */
+  left: 47px;
+  /* value = (:before left) + (:before border-left) - (:after border-left) */
+  border-width: 13px 13px 0;
+  border-style: solid;
+  border-color: #e0e5f2 transparent;
+  /* reduce the damage in FF3.0 */
+  display: block;
+  width: 0; }
+
+/* Variant : top
+--------------------- */
+/* creates the larger triangle */
+.triangle-border.top:before {
+  top: -15px;
+  /* value = - border-top-width - border-bottom-width */
+  bottom: auto;
+  left: auto;
+  right: 45px;
+  /* controls horizontal position */
+  border-width: 0 15px 15px; }
+
+/* creates the smaller  triangle */
+.triangle-border.top:after {
+  top: -13px;
+  /* value = - border-top-width - border-bottom-width */
+  bottom: auto;
+  left: auto;
+  right: 47px;
+  /* value = (:before right) + (:before border-right) - (:after border-right) */
+  border-width: 0 13px 13px; }
+
 /* ----------- Main ---------- */
 body {
   position: relative;
@@ -513,74 +581,6 @@ span.plainText {
   border: 1px solid #cccccc;
   border-top: 1px solid #efefef;
   border-left: 1px solid #efefef; }
-
-/* ---------- BUBBLE WITH A BORDER AND TRIANGLE ---------- */
-/* adapted from http://nicolasgallagher.com/pure-css-speech-bubbles/demo/ */
-/* THE SPEECH BUBBLE
----------------------- */
-.triangle-border {
-  position: relative;
-  padding: 5px;
-  margin: -12px 0 5px;
-  border: 1px solid #0c70a7;
-  /* was 5px */
-  color: #333333;
-  background: #e0e5f2;
-  /* css3 */
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px; }
-
-/* THE TRIANGLE
------------------------ */
-.triangle-border:before {
-  content: "";
-  position: absolute;
-  bottom: -20px;
-  /* value = - border-top-width - border-bottom-width */
-  border-width: 20px 20px 0;
-  border-style: solid;
-  border-color: #0c70a7 transparent;
-  /* reduce the damage in FF3.0 */
-  display: block;
-  width: 0; }
-
-/* creates the smaller  triangle */
-.triangle-border:after {
-  content: "";
-  position: absolute;
-  bottom: -13px;
-  /* value = - border-top-width - border-bottom-width */
-  left: 47px;
-  /* value = (:before left) + (:before border-left) - (:after border-left) */
-  border-width: 13px 13px 0;
-  border-style: solid;
-  border-color: #e0e5f2 transparent;
-  /* reduce the damage in FF3.0 */
-  display: block;
-  width: 0; }
-
-/* Variant : top
---------------------- */
-/* creates the larger triangle */
-.triangle-border.top:before {
-  top: -15px;
-  /* value = - border-top-width - border-bottom-width */
-  bottom: auto;
-  left: auto;
-  right: 45px;
-  /* controls horizontal position */
-  border-width: 0 15px 15px; }
-
-/* creates the smaller  triangle */
-.triangle-border.top:after {
-  top: -13px;
-  /* value = - border-top-width - border-bottom-width */
-  bottom: auto;
-  left: auto;
-  right: 47px;
-  /* value = (:before right) + (:before border-right) - (:after border-right) */
-  border-width: 0 13px 13px; }
 
 /* ---------- Misc ----------*/
 /* self-clearing floats */

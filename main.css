@@ -317,7 +317,7 @@ body {
   position: relative;
   margin: 0 auto;
   padding: 0 1em;
-  /* IE Fix to setup later	width: expression(document.body.clientWidth < 742? "740px" : document.body.clientWidth > 1202? "1200px" : "auto"); */ }
+  /* IE Fix to setup later  width: expression(document.body.clientWidth < 742? "740px" : document.body.clientWidth > 1202? "1200px" : "auto"); */ }
 
 .section {
   margin-top: 3em; }

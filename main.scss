@@ -7,12 +7,12 @@
 /* ----------- Main ---------- */
 
 body {
-	position: relative;
-	margin: 0;
-	padding: 0;
-	top: 0;
-	background-color: $white;
-	color: $darkgrey;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  background-color: $white;
+  color: $darkgrey;
 }
 
 #wrapper {
@@ -20,19 +20,19 @@ body {
 
 #branding,
 #content {
-	position: relative;
-	margin: 0 auto;
-	padding: 0 1em;
-	/* IE Fix to setup later	width: expression(document.body.clientWidth < 742? "740px" : document.body.clientWidth > 1202? "1200px" : "auto"); */
+  position: relative;
+  margin: 0 auto;
+  padding: 0 1em;
+  /* IE Fix to setup later  width: expression(document.body.clientWidth < 742? "740px" : document.body.clientWidth > 1202? "1200px" : "auto"); */
 }
 
 .section {
-	margin-top: 3em;
+  margin-top: 3em;
 }
 
 p {
-	line-height: 1.3em;
-	margin-bottom: 1em;
+  line-height: 1.3em;
+  margin-bottom: 1em;
 }
 
 
@@ -40,66 +40,66 @@ p {
 /* ---------- Branding ---------- */
 
 .header {
-	width: 100%;
-	background: $greendenim url('images/verbisthewordBanner-01.png') repeat center -15px;
-	border-bottom: 1px solid $brightdenim;
-	color: $white;
+  width: 100%;
+  background: $greendenim url('images/verbisthewordBanner-01.png') repeat center -15px;
+  border-bottom: 1px solid $brightdenim;
+  color: $white;
 }
 
 #branding {
   h1,
   a {
-  	color: $white;
-  	border: 1px solid transparent;
+    color: $white;
+    border: 1px solid transparent;
   }
   h1 {
-  	float: left;
-  	margin-top: 0;
-  	margin-bottom: .1em;
-	margin-right: .4em;
-  	padding-top: .5em; /* 18px / 36px = .5em*/
-  	
-  	a:hover {
-    	border: 1px solid transparent;
-    	border-bottom: 1px solid $white;
-    	background-color: transparent;
+    float: left;
+    margin-top: 0;
+    margin-bottom: .1em;
+  margin-right: .4em;
+    padding-top: .5em; /* 18px / 36px = .5em*/
+    
+    a:hover {
+      border: 1px solid transparent;
+      border-bottom: 1px solid $white;
+      background-color: transparent;
     }
   }
   a:hover {
-  	text-decoration: none;
-  	border: 1px solid $paledenim;
-  	background-color: $denim;
+    text-decoration: none;
+    border: 1px solid $paledenim;
+    background-color: $denim;
   }
   ul {
-  	float: left;
-  	margin-top: 0;
-  	bottom: .6em;
-  	padding-top: 2.4em;	/* It was trial and error, I admit. */
-  	font-size: 1.2em;
-  	text-transform: lowercase;
+    float: left;
+    margin-top: 0;
+    bottom: .6em;
+    padding-top: 2.4em;  /* It was trial and error, I admit. */
+    font-size: 1.2em;
+    text-transform: lowercase;
   }
   li {
-  	float: left;
-  	margin-right: .4em;
+    float: left;
+    margin-right: .4em;
 
     a {
-    	display: block;
-    	padding: 0.2em 0.4em 0.4em;
-    	border-bottom: 1px solid transparent;
-    	-webkit-border-radius: .3em;
-    	-moz-border-radius: .3em;
-    	border-radius: .3em;
+      display: block;
+      padding: 0.2em 0.4em 0.4em;
+      border-bottom: 1px solid transparent;
+      -webkit-border-radius: .3em;
+      -moz-border-radius: .3em;
+      border-radius: .3em;
     }
     &.current a {
-    	background-color: $mediumdenim;
-    	border: 1px solid $brightdenim;
+      background-color: $mediumdenim;
+      border: 1px solid $brightdenim;
     }
   }
   a.external-link {
-  	background-image: url('images/arrow_full_upperright_16-mediumBlue.png');
-  	background-position: right .2em;
-  	background-repeat: no-repeat;
-  	padding-right: 16px;
+    background-image: url('images/arrow_full_upperright_16-mediumBlue.png');
+    background-position: right .2em;
+    background-repeat: no-repeat;
+    padding-right: 16px;
   }
 }
 
@@ -107,121 +107,121 @@ p {
 /* ---------- Content ---------- */
 
 #content {
-	margin-top: 2em;
-	margin-bottom: 2em;
-	clear: left;
-	
-	ul,
-	ol {
-  	margin: 1em;
-  	line-height: 1.5em;
-  	list-style: disc inside none;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  clear: left;
+  
+  ul,
+  ol {
+    margin: 1em;
+    line-height: 1.5em;
+    list-style: disc inside none;
   }
 }
 
 .col30 {
-	float: left;
-	width: 100%;
+  float: left;
+  width: 100%;
 }
 
 
 /* ---------- Infobox ---------- */
 .infobox {
-	float: right;
-	width: 210px;
-	margin: 0;
+  float: right;
+  width: 210px;
+  margin: 0;
 
   .portrait {
-  	width: 160px;
-  	margin: 10px 1.8em .5em;
+    width: 160px;
+    margin: 10px 1.8em .5em;
   }
 }
 
 
-/* ---------- Sketchnotes ---------- */	
+/* ---------- Sketchnotes ---------- */  
 
 .resources {
-	float: left;
-	width: 65%;
+  float: left;
+  width: 65%;
 }
 .flickr-feature {
-	float: right;
-	width: 30%;
+  float: right;
+  width: 30%;
 }
 
-/* ---------- Photos ---------- */	
+/* ---------- Photos ---------- */  
 .photo,
 .photo.feature {
-	width: 100%;
+  width: 100%;
 }
 .text.feature {
-	font-size: 1.3em;
+  font-size: 1.3em;
 }
 
-/* ---------- Flickr Badge ---------- */	
+/* ---------- Flickr Badge ---------- */  
 
 .flickrTitle {
-	margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .flickrBadge {
-	float: left;
-	background-color: $denimwhite;
-	border: 1px solid $greendenim;
-	-webkit-border-radius:6px;
-	-moz-border-radius:6px;
-	border-radius:6px;
-	padding: 0 0 10px 0;
+  float: left;
+  background-color: $denimwhite;
+  border: 1px solid $greendenim;
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  border-radius:6px;
+  padding: 0 0 10px 0;
 }
 
 .flickr_badge_image {
-	float: left;
-	margin: 0 4% 10px 0;
-	height: auto;
-	width: 44%;
+  float: left;
+  margin: 0 4% 10px 0;
+  height: auto;
+  width: 44%;
 }
 
 .flickr_badge_image:nth-child(2n-1) {
-	clear: left;
-	margin-right: 0;
+  clear: left;
+  margin-right: 0;
 }
 
 .flickr-feature,
 .col30 {
-	.flickr_badge_image {
-		margin-left: 0;
-		width: 100%;
-		clear: both;
-	}
+  .flickr_badge_image {
+    margin-left: 0;
+    width: 100%;
+    clear: both;
+  }
 }
 .flickr_badge_image a {
-	display: block;
+  display: block;
 }
 
 .flickr_badge_image a img {
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .flickrLink {
-	clear: left;
+  clear: left;
 }
 
 
-/* ---------- Twitter & Page Note ---------- */	
+/* ---------- Twitter & Page Note ---------- */  
 #twitter_div, #page_note {
-	font-size: .9em;
-	padding: 0 10px;
+  font-size: .9em;
+  padding: 0 10px;
 }
 
 .twitterTitle {
-	display: none;
+  display: none;
 }
 
 
 /* ---------- Contact Form ---------- */
 form {
-	width: 500px;
+  width: 500px;
 }
 
 label, 
@@ -229,111 +229,111 @@ input,
 textarea, 
 button, 
 #recaptcha_widget_div {
-	margin-bottom: 1em;
-	float: left;
+  margin-bottom: 1em;
+  float: left;
 }
 
 label, 
 input, 
 textarea, 
 button {
-	padding: .3em;
+  padding: .3em;
 }
 
 input, 
 textarea, 
 button {
-	border-color: $paledenim2 $lightestgray $lightestgray $paledenim2;
-	border-style: solid;
-	border-width: 2px;
+  border-color: $paledenim2 $lightestgray $lightestgray $paledenim2;
+  border-style: solid;
+  border-width: 2px;
 }
 
 input:hover, 
 textarea:hover, 
 button:hover, 
 input:hover#recaptcha_response_field {
-	background-color: $greenwhite;
+  background-color: $greenwhite;
 }
 
 label {
-	clear: left;
-	margin-bottom: 0.2em;
-	padding: .5em 0;
-	width: 105px;
+  clear: left;
+  margin-bottom: 0.2em;
+  padding: .5em 0;
+  width: 105px;
 }
 
 input {
-	width: 232px;
+  width: 232px;
 }
 
 textarea {
-	height: 130px;
-	width: 280px;
+  height: 130px;
+  width: 280px;
 }
 
 #recaptcha_widget_div {
-	margin-left: -3px;
+  margin-left: -3px;
 }
 
 input[type="submit"], 
 button {
-	clear: left;
-	width: 200px;
-	padding: 1em;
-	color: $white;
-	background-color: $deepblue;
-	border: 1px solid $aqua;
+  clear: left;
+  width: 200px;
+  padding: 1em;
+  color: $white;
+  background-color: $deepblue;
+  border: 1px solid $aqua;
 }
 
 input[type="submit"]:hover, 
 button:hover {
-	background-color: $aqua;
-	border: 1px solid $deepblue;
+  background-color: $aqua;
+  border: 1px solid $deepblue;
 }
 
 
 /* ---------- Error Message ---------- */
 
 .errorMsg {
-	width: 290px;
-	padding: 10px;
-	margin-bottom: 20px;
-	border: 1px solid $deepred;
-	background-color: $tanwhite;
+  width: 290px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid $deepred;
+  background-color: $tanwhite;
 }
 
 
 /* ---------- Resume ---------- */
-	
+  
 dt {
-	font-weight: bold;
-	margin-top: 1em;
+  font-weight: bold;
+  margin-top: 1em;
 }
-		
+    
 h3.section {
-	font-size: 1.1em;
-	font-weight: normal;
-	text-transform: uppercase;
-	color: $mediumgrey;
-	margin-bottom: .5em;
+  font-size: 1.1em;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: $mediumgrey;
+  margin-bottom: .5em;
 }
-		
+    
 dd,
 .experience li {
-	line-height: 1.3em;
-	list-style-type: disc;
-	list-style-position: outside;
+  line-height: 1.3em;
+  list-style-type: disc;
+  list-style-position: outside;
 }
 
 .experience dd {
-	display: list-item;
-	margin-left: 1em;
+  display: list-item;
+  margin-left: 1em;
 }
 
 .experience dd.employer {
-	display: block;
-	margin-left: 0;
-	margin-bottom: .1em;
+  display: block;
+  margin-left: 0;
+  margin-bottom: .1em;
 }
 
 dl.experience li {
@@ -341,7 +341,7 @@ dl.experience li {
 }
 
 span.plainText {
-	font-weight: normal;
+  font-weight: normal;
 }
 
 .footnote {
@@ -352,12 +352,12 @@ span.plainText {
 /* ---------- Portfolio ----------*/
 
 .thumb {
-	float: left;
-	width: 200px;
-	margin: .5em 1em 1em 0;
-	border: 1px solid $lightgray;
-	border-top: 1px solid $lightergray;
-	border-left: 1px solid $lightergray;
+  float: left;
+  width: 200px;
+  margin: .5em 1em 1em 0;
+  border: 1px solid $lightgray;
+  border-top: 1px solid $lightergray;
+  border-left: 1px solid $lightergray;
 }
 
 
@@ -371,124 +371,124 @@ span.plainText {
 
 /* self-clearing floats */
 .group:after {
-	content: ".";
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
 
 
 /* ---------- Media Queries ---------- */
 @media screen and (min-width: 500px) {
-	.col30 {
-		width: 48%;
-		margin-right: 2%;
-	}
+  .col30 {
+    width: 48%;
+    margin-right: 2%;
+  }
 }
 
 @media screen and (min-width: 690px) {
-	#branding,
-	#content {
-		max-width: 51.6666667em;	/* 620px / 12px = 51.6666667em */
-	}
-	.vimeo {
-		width:100%;
-		height: 380px;
-	}
-	#content-wrapper-home {
-		width: 30%;
-		margin-right: 2%;
-		float: left;
-	}
-	.col30 {
-		width: 30%;
-	}
+  #branding,
+  #content {
+    max-width: 51.6666667em;  /* 620px / 12px = 51.6666667em */
+  }
+  .vimeo {
+    width:100%;
+    height: 380px;
+  }
+  #content-wrapper-home {
+    width: 30%;
+    margin-right: 2%;
+    float: left;
+  }
+  .col30 {
+    width: 30%;
+  }
 }
 
 @media screen and (max-width: 690px) {
-	#content-wrapper-home,
-	.infobox {
-		float: none;
-		width: 100%;
-	}
-	.twitterTitle {
-		display: block;
-	}
-	.infobox .portrait {
-		margin-top: 0;
-	}
-	
-	.triangle-border.top:before {
-		right: auto;
-		left: 20px;
-	}
-	.triangle-border.top:after {
-		right: auto;
-		left: 22px;
-	}
-	ul#twitter_update_list li > a {
-		display: inline;
-		text-align: left;
-	}
-	.flickr_badge_image:nth-child(2n) {
-		clear: none;
-	}
-	label, input, textarea, button, #recaptcha_widget_div {
-		clear: left;
-	}
-	label {
-		padding: 0;
-	}
-	.vimeo {
-		width:100%;
-		height: 300px;
-	}
+  #content-wrapper-home,
+  .infobox {
+    float: none;
+    width: 100%;
+  }
+  .twitterTitle {
+    display: block;
+  }
+  .infobox .portrait {
+    margin-top: 0;
+  }
+  
+  .triangle-border.top:before {
+    right: auto;
+    left: 20px;
+  }
+  .triangle-border.top:after {
+    right: auto;
+    left: 22px;
+  }
+  ul#twitter_update_list li > a {
+    display: inline;
+    text-align: left;
+  }
+  .flickr_badge_image:nth-child(2n) {
+    clear: none;
+  }
+  label, input, textarea, button, #recaptcha_widget_div {
+    clear: left;
+  }
+  label {
+    padding: 0;
+  }
+  .vimeo {
+    width:100%;
+    height: 300px;
+  }
 }
 
 @media screen and (max-width: 598px) { /*previously 545px, 485px*/
-	#branding h1 {
-		float:none;
-	}
-	
-	#branding ul {
-		float: right;
-		padding-top: 0;
-	}
-	
-	.thumb {
-		float: none;
-		width: 100%;
-	}
-	.flickr_badge_image:nth-child(3n+2) {
-		clear: left;
-	}
-	
-	.resources,
-	.flickr-feature {
-		width: 47%;
-	}
+  #branding h1 {
+    float:none;
+  }
+  
+  #branding ul {
+    float: right;
+    padding-top: 0;
+  }
+  
+  .thumb {
+    float: none;
+    width: 100%;
+  }
+  .flickr_badge_image:nth-child(3n+2) {
+    clear: left;
+  }
+  
+  .resources,
+  .flickr-feature {
+    width: 47%;
+  }
 }
 
 @media screen and (max-width: 470px) {
-	.vimeo {
-		width:100%;
-		height: 200px;
-	}
+  .vimeo {
+    width:100%;
+    height: 200px;
+  }
 }
 
 @media screen and (max-width: 385px) {
-	#branding ul {
-		float: left;
-		margin-left: 0;
-		
-		li:first-child {
-			margin-right: 0
-		}
-	}
-	.resources,
-	.flickr-feature {
-		float: left;
-		width: 100%;
-	}
+  #branding ul {
+    float: left;
+    margin-left: 0;
+    
+    li:first-child {
+      margin-right: 0
+    }
+  }
+  .resources,
+  .flickr-feature {
+    float: left;
+    width: 100%;
+  }
 }

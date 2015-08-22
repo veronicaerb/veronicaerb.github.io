@@ -72,3 +72,4 @@ PLATFORMS
 DEPENDENCIES
   foreman
   jekyll
+  kramdown

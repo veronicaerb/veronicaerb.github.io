@@ -1,6 +1,6 @@
 ---
 published: true
-title: Cranky People are Invested People
+title: Cranky people are invested people
 author: Veronica Erb
 created_at: 2015-07-22 19:39:47.751116 -05:00
 layout: post

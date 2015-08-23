@@ -7,7 +7,7 @@ layout: application
   <div class="latest-post h-entry">
     <!-- latest post -->
     <h1 class="p-name"><a href="{{post.url}}" class="u-url">{{post.title}}</a></h1>
-    <time class="created timestamp dt-published" datetime="{{post.created_at | date:'%FT%T%:z' }}">{{post.created_at | date:'%F' }}</time>
+    <time class="created timestamp dt-published" datetime="{{post.created_at | date:'%FT%T%:z' }}">{{post.created_at | date: '%-d %B %Y' }}</time>
 
     <div class="e-content">
       {{ post.content }}

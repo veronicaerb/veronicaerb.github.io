@@ -1,0 +1,13 @@
+---
+layout: application
+---
+
+<article>
+<h1>{{page.title}}</h1>
+<p><time class="created timestamp dt-published" datetime="{{page.created_at | date:'%FT%T%:z' }}">{{page.created_at | date: '%-d %B %Y' }}</time></p>
+
+{{content}}
+</article>
+
+<h3>About Veronica Erb</h3>
+<p>Designs, researches, illustrates, and writes code. Plays ukulele. Dances Balboa. Grew up in a geodesic dome, and hasn't gotten over it. Say hey to her on <a href="https://twitter.com/verbistheword">Twitter at @verbistheword</a>.</p>

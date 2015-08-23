@@ -1,0 +1,7 @@
+markdown: kramdown
+permalink: none
+highlighter: false
+lsi: false
+safe: true
+exclude: []
+excerpt_separator: "<!-- continue -->"

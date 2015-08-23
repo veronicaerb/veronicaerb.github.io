@@ -1,3 +1,12 @@
+/* ---------- Typographical Hierarchy ---------- */
+
+$th1: 3em;  /* 36px / 12px */
+$th2: 2em;  /* 24px / 12px */
+$th3: 1.75em;  /* 21px / 12px */
+$th4: 1.34em; /*1.5em;  18px / 12px */
+$th5: 1.3em; /* 1.34em;  16px / 12px */
+$th6: 1.17em; /* 14px / 12px */
+
 /* ---------- Headers ---------- */
 
 h1, h2, h3, h4, h5, h6 {
@@ -6,27 +15,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3em;  /* 36px / 12px */
+  font-size: $th1;  /* 36px / 12px */
 }
 
 h2 {
-    font-size: 2em;  /* 24px / 12px */
+  font-size: $th2;  /* 24px / 12px */
 }
 
 h3 {
-    font-size: 1.75em;  /* 21px / 12px */
+  font-size: $th3;  /* 21px / 12px */
 }
 
 h4 {
-    font-size: 1.34em; /*1.5em;  18px / 12px */
+  font-size: $th4; /*1.5em;  18px / 12px */
 }
 
 h5 {
-    font-size: 1.3em; /* 1.34em;  16px / 12px */
+  font-size: $th5; /* 1.34em;  16px / 12px */
 }
 
 h6 {
-    font-size: 1.17em; /* 14px / 12px */
+  font-size: $th6; /* 14px / 12px */
 }
 
 

@@ -6,12 +6,11 @@ layout: application
 {% for post in site.posts limit:1 %}
   <div class="latest-post h-entry">
     <!-- latest post -->
-    <h1 class="p-name"><a href="{{post.url}}" class="u-url">{{post.title}}</a></h1>
-    <time class="created timestamp dt-published" datetime="{{post.created_at | date:'%FT%T%:z' }}">{{post.created_at | date: '%-d %B %Y' }}</time>
-
-    <div class="e-content">
+    <article>
+      <h1 class="p-name"><a href="{{post.url}}" class="u-url">{{post.title}}</a></h1>
+      <p><time class="created timestamp dt-published" datetime="{{post.created_at | date:'%FT%T%:z' }}">{{post.created_at | date: '%-d %B %Y' }}</time></p>
       {{ post.content }}
-    </div>
+    </article>
   </div>
 {% endfor %}
 
@@ -21,7 +20,9 @@ layout: application
     <li class="h-entry">
       <section>
         <h1><a href="{{post.url}}" class="p-name u-url">{{post.title}}</a></h1>
+        <p><time class="created timestamp dt-published" datetime="{{post.created_at | date:'%FT%T%:z' }}"> {{post.created_at | date: '%-d %B %Y' }}</time></p>
         {{ post.excerpt }}
+        <a href="{{post.url}}">Continue reading &gt;</a>
       </section>
     </li>
   {% endfor %}

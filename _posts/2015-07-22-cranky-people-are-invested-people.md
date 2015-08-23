@@ -7,7 +7,7 @@ layout: post
 categories: blog # path parts
 ---
 
-<a href="https://www.flickr.com/photos/26536462@N06/19729854799/in/datetaken/"><img class="alignleft" src="https://farm1.staticflickr.com/309/19729854799_cc0959159a_n.jpg" alt="" width="320" height="320" /></a>
+[![](https://farm1.staticflickr.com/309/19729854799_cc0959159a_n.jpg)](https://www.flickr.com/photos/26536462@N06/19729854799/in/datetaken/)
 
 "People will yell at you.” Yep, that’s one of the things we were told comes with the role of co-chair for IA Summit. We were advised that the best way to handle it was to band together, find the strength in our team, and try not to take it too personally.
 

@@ -3,6 +3,7 @@ The humble code for [veronicaerb.com](http://veronicaerb.com).
 
 ## Contributors ##
 * [Veronica Erb](https://github.com/veronicaerb)
+* [Tony Pitale](https://github.com/tpitale/)
 * [Ian Young](https://github.com/iangreenleaf/)
 
 ## License ##

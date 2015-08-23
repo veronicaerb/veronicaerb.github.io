@@ -16,12 +16,13 @@ layout: application
 {% endfor %}
 
 <div class="recent-posts h-feed">
-  <h2>Read More <span class="p-name">Recent Posts</span></h2>
   <ol>
   {% for post in site.posts limit:9 offset:1 %}
     <li class="h-entry">
-      <a href="{{post.url}}" class="p-name u-url">{{post.title}}</a>
-      {{ post.excerpt }}
+      <section>
+        <h1><a href="{{post.url}}" class="p-name u-url">{{post.title}}</a></h1>
+        {{ post.excerpt }}
+      </section>
     </li>
   {% endfor %}
   </ol>

@@ -3,10 +3,26 @@ title: Blog
 layout: application
 ---
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+{% for post in site.posts limit:1 %}
+  <div class="latest-post h-entry">
+    <!-- latest post -->
+    <h1 class="p-name"><a href="{{post.url}}" class="u-url">{{post.title}}</a></h1>
+    <time class="created timestamp dt-published" datetime="{{post.created_at | date:'%FT%T%:z' }}">{{post.created_at | date:'%F' }}</time>
+
+    <div class="e-content">
+      {{ post.content }}
+    </div>
+  </div>
+{% endfor %}
+
+<div class="recent-posts h-feed">
+  <h2>Read More <span class="p-name">Recent Posts</span></h2>
+  <ul>
+  {% for post in site.posts limit:10 offset:1 %}
+    <li class="h-entry">
+      <a href="{{post.url}}" class="p-name u-url">{{post.title}}</a>
+      {{ post.excerpt }}
     </li>
   {% endfor %}
-</ul>
+  </ul>
+</div>

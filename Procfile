@@ -1,1 +1,1 @@
-web: bundle exec jekyll serve --watch
+web: bundle exec jekyll serve --watch --drafts

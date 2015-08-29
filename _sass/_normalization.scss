@@ -46,12 +46,3 @@ em, i {
 strong, bold {
   font-weight: bold;
 }
-
-body {
-  font-size: x-small;                /* IE renders "small" at 12px */ 
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-html > body {
-  font-size: small;                /* MOSe render "medium" at 12px */
-}

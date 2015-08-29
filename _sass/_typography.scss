@@ -1,3 +1,15 @@
+/* ---------- Base typography ---------- */
+
+
+body {
+  font-size: small;                /* IE renders "small" at 12px */ 
+  font-family: 'Libre Baskerville', serif;
+}
+
+html > body {
+  font-size: medium;                /* MOSe render "medium" at 12px */
+}
+
 /* ---------- Typographical Hierarchy ---------- */
 
 $th1: 3em;  /* 36px / 12px */
@@ -10,6 +22,7 @@ $th6: 1.17em; /* 14px / 12px */
 /* ---------- Headers ---------- */
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: normal;
   margin-bottom: .5em;
 }
@@ -36,6 +49,13 @@ h5 {
 
 h6 {
   font-size: $th6; /* 14px / 12px */
+}
+
+/* ---------- Body Elements ----------- */
+
+p {
+  line-height: 1.5em;
+  margin-bottom: 1em;
 }
 
 

@@ -353,6 +353,8 @@ span.plainText {
 
 /* ---------- Blog Index ----------*/
 
+article,
+section,
 #content .latest-post,
 #content .recent-posts {
   & > ol {
@@ -392,6 +394,10 @@ section {
     float: left;
     margin: 0 1.5em 1.5em 0;
   }
+}
+
+.about {
+  margin-top: 2em;
 }
 
 

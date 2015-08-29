@@ -1,6 +1,5 @@
 markdown: kramdown
 permalink: none
-highlighter: false
 lsi: false
 safe: true
 exclude: []

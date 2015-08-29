@@ -5,7 +5,7 @@ layout: application
 
 <h2>Contact Veronica</h2>
 
-<form action="//formspree.io/your@email.com" method="POST">
+<form action="//formspree.io/veronicaerb+contactform@gmail.com" method="POST">
   <fieldset>
     <input type="hidden" name="_next" value="/contact.html">
     <input type="hidden" name="_subject" value="Contact Form on veronicaerb.com">
@@ -19,26 +19,7 @@ layout: application
     <label id="message" for="message">What's up?</label>
     <textarea name="message" cols="40" rows="6"></textarea>
 
-    <div id="reCAPTCHA">
-      <!--reCAPTCHA theme -->
-      <script type="text/javascript">
-        var RecaptchaOptions = { theme: 'white'};
-      </script>
-
-      <!-- reCAPTCHA with js -->
-      <script type="text/javascript" src="http://api.recaptcha.net/challenge?k=6Lf5ZwgAAAAAAJpTVVkl3FkIHHwjy-ctlPJhnHKk">
-      </script>
-
-      <!-- reCAPTCHA without js -->
-      <noscript>
-         <iframe src="http://api.recaptcha.net/noscript?k=6Lf5ZwgAAAAAAJpTVVkl3FkIHHwjy-ctlPJhnHKk"
-           height="300" width="500" frameborder="0"></iframe><br />
-         <textarea name="recaptcha_challenge_field" rows="3" cols="40">
-         </textarea>
-         <input type="hidden" name="recaptcha_response_field" 
-           value="manual_challenge" />
-      </noscript>
-    </div><!-- #reCAPTCHA -->
+    <input type="text" name="_gotcha" style="display:none" />
 
     <input type="submit" value="Send">
   </fieldset>

@@ -362,6 +362,7 @@ section,
     margin-top: 40px;
 
     & > li {
+      clear: left;
       list-style-type: none;
     }
   }

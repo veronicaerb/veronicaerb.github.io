@@ -1,6 +1,6 @@
 ---
 published: true
-title: Favorites from Veronica's previous blog
+title: Old favorites
 author: Veronica Erb
 created_at: 2015-06-20 15:12:24.056268 -04:00
 layout: post

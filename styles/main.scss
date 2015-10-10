@@ -521,6 +521,9 @@ section {
 }
 
 @media screen and (max-width: 450px) {
+  #branding h1 {
+    font-size: 2em;
+  }
   #branding ul {
     font-size: 1em;
   }

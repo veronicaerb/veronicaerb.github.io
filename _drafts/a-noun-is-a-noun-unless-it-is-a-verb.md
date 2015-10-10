@@ -25,7 +25,9 @@ That unconscious confusion kept me from digging into the newsletter. Though the 
 
 ## The sudden decoding
 
-Finally, just now, I looked at the sentence again and the message fell into place. What it’s trying to say is: A company (which is known as Nielsen) has documented that [people are spending more time on digital video and game consoles](http://www.nielsen.com/us/en/insights/reports/2015/case-study-the-evolution-of-digital-video-viewership.html), instead of spending that time on other things. Phew! What a difference that is from pieces of paper shifting through the space-time continuum.
+Finally, just now, I looked at the sentence again and the message fell into place.
+
+What it’s trying to say is: A company (which is known as Nielsen) has documented that [people are spending more time on digital video and game consoles](http://www.nielsen.com/us/en/insights/reports/2015/case-study-the-evolution-of-digital-video-viewership.html), instead of spending that time on other things. Phew! What a difference that is from pieces of paper shifting through the space-time continuum.
 
 My dyslexic mind is so integrated with how I see the world that I sometimes don’t realize that it’s why I don’t understand something.
 

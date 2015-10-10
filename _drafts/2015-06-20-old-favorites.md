@@ -7,7 +7,7 @@ layout: post
 categories: blog # path parts
 ---
 
-Hello! If you’re curious about what I’ve written on the web prior to blogging on this site, here are some posts to get you started:
+Hello! If you’re curious about what I’ve written on the web prior to this blog, here are some posts to get you started:
 
 * [Happy Dot Day!](https://verbistheword.wordpress.com/2014/09/15/happy-dot-day/)
 
@@ -19,6 +19,8 @@ Hello! If you’re curious about what I’ve written on the web prior to bloggin
 
 * [The design of elevator buttons](https://verbistheword.wordpress.com/2010/10/17/the-design-of-elevator-buttons/)
 
-Thank you for joining me here. This new home for my writing on the web is thanks to the help of the wonderful [Tony Pitale](http://tpitale.com/).
+<!-- continue -->
 
-Tony has helped me shift veronicaerb.com from using plain ol’ HTML and CSS (well, I’d already started using Sass) to ever so clever Jekyll. Jekyll allows me to use some of the power of Ruby (a favorite programming language of these modern times) while still staying pretty happily within coding concepts I already understand. Thank you, darling!
+This new home for my writing on the web is thanks to the help of the wonderful Tony Pitale. He has helped me shift veronicaerb.com from using plain ol’ HTML and CSS (well, I’d already started using Sass) to ever so clever Jekyll. Jekyll allows me to use some of the power of Ruby (a favorite programming language of these modern times) while still staying happily within coding concepts I already understand.
+
+Thanks for joining me here!

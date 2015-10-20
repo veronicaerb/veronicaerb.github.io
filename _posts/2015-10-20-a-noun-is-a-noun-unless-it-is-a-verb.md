@@ -1,6 +1,8 @@
 ---
+published: true
 title: A noun is a noun, unless it is a verb
 author: Veronica Erb
+created_at: 2015-10-20 08:36:46.871703 -04:00
 layout: post
 categories: blog # path parts
 ---

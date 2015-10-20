@@ -13,15 +13,15 @@ October is the [awareness month](https://www.understood.org/en/community-events/
 
 Two days ago, I received an analytics newsletter with the following headline: "Nielsen documents shift in time toward digital video and game consoles.”
 
-Each time my eyes happened upon the headline over over the last couple days, I didn’t decode it and then went back to something else.
+When I looked at the sentence, I kept reading "shift” as the verb and “Nielsen documents” as the noun.
 
 <!-- continue -->
 
-When I did look at the sentence, I kept reading "shift” as the verb and “Nielsen documents” as the noun.
-
-That way of reading the sentence just didn’t work. What do you mean, the documents are shifting in time? Are we talking sci-fi here? And what does that have to do with video games? (Other than the truth that some video games include time shifts.)
+That way of reading the sentence just didn’t work. What do you mean, the documents are shifting in time? Are we talking sci-fi here? And what does that have to do with video games? (That is, other than the truth that some video games include time shifts.)
 
 That unconscious confusion kept me from digging into the newsletter. Though the questions I listed above were happening in my brain, they weren’t happening consciously.
+
+Each time my eyes happened upon the headline over over the last couple days, I didn’t decode it and then went back to something else.
 
 ## The sudden decoding
 
@@ -33,8 +33,8 @@ My dyslexic mind is so integrated with how I see the world that I sometimes don�
 
 ## The big picture
 
-Everyone understand words and ideas differently. Some perspectives come from the structure of our minds. Other perspectives come from the lessons our caregivers taught us, and yet others come from the experiences we’ve had since then.
+Everyone understand words and ideas differently. Some perspectives come from the structure of our minds. Other perspectives come from the lessons (or languages) our caregivers taught us, and yet others come from the experiences we’ve had since then.
 
-For us each to succeed, we need to tackle these perspectives from both sides. I work hard to understand things that are important to others but are difficult for me to understand. And, I work hard to communicate my ideas in ways that are easy for other people to understand.
+For us each to succeed, we need to tackle these perspectives from both sides. I work hard to understand things that are important to others but are difficult for me to understand. I also work hard to communicate my ideas in ways that are easy for other people to understand.
 
 If we all do both of those things, just imagine what we can accomplish! Someday, documents may indeed be able to traverse the space-time continuum.

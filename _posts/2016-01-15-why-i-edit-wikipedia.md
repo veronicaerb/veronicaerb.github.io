@@ -48,8 +48,8 @@ At this point, though, I imagine you might feel the way I did eight years ago. I
 
 The good news is this: I’ve been discovering all kinds of ways to improve Wikipedia, and I expect I’ll write about some of my favorites. All you’ll need is your curiosity and the Internet.
 
-In the meantime, I invite you to <a href="https://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Wikipedia%3ATeahouse">create your Wikipedia account</a> today. With an account, you’re only bytes away from your first edit.
+In the meantime, I invite you to <a href="https://en.wikipedia.org/w/index.php?title=Special:UserLogin&type=signup&returnto=Wikipedia:Teahouse&campaign=loginCTA">create your Wikipedia account</a> today. With an account, you’re only bytes away from your first edit.
 
-If you do <a href-="https://en.wikipedia.org/wiki/Wikipedia:Be_bold">boldly</a> forge on ahead and happen upon some questions, remember that I’m just <a href="https://twitter.com/verbistheword">a tweet away</a>.
+If you do <a href="https://en.wikipedia.org/wiki/Wikipedia:Be_bold">boldly</a> forge on ahead and happen upon some questions, remember that I’m just <a href="https://twitter.com/verbistheword">a tweet away</a>.
 
 Happy <a href="https://15.wikipedia.org/">15th Birthday</a>, Wikipedia.

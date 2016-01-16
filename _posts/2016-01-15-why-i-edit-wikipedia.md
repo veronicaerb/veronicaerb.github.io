@@ -1,6 +1,6 @@
 ---
 published: true
-title: How I came to edit Wikipedia
+title: Why I edit Wikipedia
 author: Veronica Erb
 created_at: 2016-01-15 15:55:38.271167 -06:00
 layout: post

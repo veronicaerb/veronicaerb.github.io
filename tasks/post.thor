@@ -16,7 +16,6 @@ class Post < Thor
 
     if !exists || overwrite
       File.open(file, 'w') {|f| f.write(md)}
-      `$EDITOR #{file}`
     else
       puts "Not going to overwrite #{file}. Move it, or try a different title."
     end

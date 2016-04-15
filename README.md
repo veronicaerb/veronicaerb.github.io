@@ -1,6 +1,12 @@
 # veronicaerb.com #
 The humble code for [veronicaerb.com](http://veronicaerb.com).
 
+## Create a new blog post ##
+
+To see the options,
+
+`thor -T`
+
 ## Contributors ##
 * [Veronica Erb](https://github.com/veronicaerb)
 * [Tony Pitale](https://github.com/tpitale/)

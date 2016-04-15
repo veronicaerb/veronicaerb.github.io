@@ -1,11 +1,15 @@
 # veronicaerb.com #
 The humble code for [veronicaerb.com](http://veronicaerb.com).
 
-## Create a new blog post ##
+## How to ##
 
-To see the options,
+To see the options for blog posts,
 
 `thor -T`
+
+To start the server,
+
+`bundle exec jekyll serve`
 
 ## Contributors ##
 * [Veronica Erb](https://github.com/veronicaerb)

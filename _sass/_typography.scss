@@ -3,7 +3,7 @@
 
 body {
   font-size: small;                /* IE renders "small" at 12px */ 
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Alice', serif;
 }
 
 html > body {
@@ -22,8 +22,8 @@ $th6: 1.1em;
 /* ---------- Headers ---------- */
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-family: 'Playfair Display', Helvetica, Arial, sans-serif;
+  font-weight: 900;
   margin-bottom: .5em;
 }
 

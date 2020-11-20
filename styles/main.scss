@@ -39,7 +39,7 @@ body {
 
 .header {
   width: 100%;
-  background: $greendenim url('/images/verbisthewordBanner-01.png') repeat-x center bottom;
+  background: $greendenim url('../images/verbisthewordBanner-01.png') repeat-x center bottom;
   border-bottom: 1px solid $brightdenim;
   color: $white;
 }
@@ -93,7 +93,7 @@ body {
     }
   }
   a.external-link {
-    background-image: url('/images/arrow_full_upperright_16-mediumBlue.png');
+    background-image: url('../images/arrow_full_upperright_16-mediumBlue.png');
     background-position: right .2em;
     background-repeat: no-repeat;
     padding-right: 16px;

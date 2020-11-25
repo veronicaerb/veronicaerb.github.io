@@ -236,6 +236,16 @@ button:hover {
   border: 1px solid $aqua;
 }
 
+/* ---------- Book Covers ---------- */
+
+.book {
+  float: left;
+  width: 100%;
+  margin-bottom: .5em;
+  border: 1px solid $lightergray;
+  box-shadow: 2px 2px 4px $lightestgray; 
+}
+
 
 /* ---------- Error Message ---------- */
 

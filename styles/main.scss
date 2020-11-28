@@ -238,12 +238,40 @@ button:hover {
 
 /* ---------- Book Covers ---------- */
 
+.list li {
+  margin: 0 1em 0 2em;
+  list-style-position: outside;
+}
+
+.books {
+  li {
+    float: left;
+    width: 49%;
+    list-style-type: none;
+  }
+}
+
+.highlight {
+  font-style: italic;
+  font-weight: 600;
+}
+
 .book {
   float: left;
-  width: 100%;
+  width: 6em;
+  margin-right: 1em;
   margin-bottom: .5em;
   border: 1px solid $lightergray;
-  box-shadow: 2px 2px 4px $lightestgray; 
+  box-shadow: 2px 2px 4px $lightestgray;
+}
+
+.title {
+  font-style: italic;
+}
+
+.context {
+  margin-left: 8em;
+  font-size: .9em;
 }
 
 
@@ -456,6 +484,9 @@ section {
   .vimeo {
     width:100%;
     height: 300px;
+  }
+  .books li {
+    width: 100%;
   }
 }
 

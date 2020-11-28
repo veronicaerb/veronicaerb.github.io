@@ -243,11 +243,21 @@ button:hover {
   list-style-position: outside;
 }
 
-.books {
+.books,
+.online {
   li {
     float: left;
-    width: 49%;
+    width: 47%;
+    margin-right: 1.2em;
     list-style-type: none;
+  }
+}
+
+.online li {
+  width: 100%;
+  
+  p:last-child {
+    margin-top: -10px;
   }
 }
 

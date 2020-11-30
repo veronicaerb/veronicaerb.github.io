@@ -7,7 +7,7 @@ layout: post
 categories: blog # path parts
 ---
 
-<img src="http://pitaleerb.com/images/small-bell-kick.png" alt="" />
+<img src="https://pitaleerb.com/images/small-bell-kick.png" alt="" />
 
 This Saturday, Tony and I are getting married. At the beginning of the ceremony, around 3pm CT, we plan to consciously emit photons.
 

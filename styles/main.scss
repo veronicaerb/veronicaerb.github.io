@@ -186,7 +186,8 @@ form {
 label, 
 input, 
 textarea, 
-button {
+button,
+select {
   box-sizing: border-box;
   display: block;
   width: 100%;
@@ -197,17 +198,17 @@ button {
 
 input, 
 textarea, 
-button {
+button,
+select {
   border-color: $lightgray;
   border-style: solid;
   border-width: 1px;
+
+  &:hover {
+    background-color: $greenwhite;
+  }
 }
 
-input:hover, 
-textarea:hover, 
-button:hover {
-  background-color: $greenwhite;
-}
 
 label {
   clear: left;
@@ -447,7 +448,7 @@ section {
 @media screen and (min-width: 690px) {
   #branding,
   #content {
-    max-width: 45.6666667em;  /* 620px / 12px = 51.6666667em */ /* Changed to `45em because just looks nicer! */
+    max-width: 46.6666667em;  /* 620px / 12px = 51.6666667em */ /* Changed to `46em because just looks nicer, and also works in Safari because I am lazy; I liked 45em better! */
   }
   .vimeo {
     width:100%;

@@ -11,13 +11,25 @@ active: contact
     <input type="hidden" name="_next" value="/ttyl.html">
     <input type="hidden" name="_subject" value="Contact Form on veronicaerb.com">
 
-    <label id="name" for="name">Your name</label>
+    <label id="name" for="name">Name</label>
     <input type="text" name="name">
 
-    <label id="email" for="email">Your email address</label>
+    <label id="email" for="email">Email address</label>
     <input type="email" name="email">
 
-    <label id="message" for="message">What's up?</label>
+    <label for="why">What brings you my way?</label>
+    <select id="why" name="why">
+      <option value="default"></option>
+      <option value="interview">I'd like to interview you for my podcast or publication</option>
+      <option value="event">I’d like to book you for my event or organization</option>
+      <option value="hello">Saying hello</option>
+      <option value="else">Something else</option>
+    </select>
+
+    <label id="name" for="name">Subject</label>
+    <input type="text" name="subject">
+
+    <label id="message" for="message">Message</label>
     <textarea name="message" cols="40" rows="6"></textarea>
 
     <input type="text" name="_gotcha" style="display:none" />
